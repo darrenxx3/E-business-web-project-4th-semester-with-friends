@@ -1,0 +1,2 @@
+<?php 
+// buat cek history
