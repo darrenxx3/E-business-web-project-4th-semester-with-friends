@@ -1,7 +1,8 @@
 import React from 'react'
 import mobil from "../assets/mobilio.png"
+import { NavLink } from 'react-router-dom'
 
-export default function Kendaraan({ setPage }) {
+export default function Kendaraan() {
   return (
     <div className="grid xl:grid-cols-3 lg:grid-cols-2 justify-items-center gap-y-10">
       <div className="card w-96 bg-base-100 shadow-xl">
@@ -26,8 +27,9 @@ export default function Kendaraan({ setPage }) {
             </div>
           </div>
           <div className="card-actions justify-between">
-            <button className="btn btn-primary">View Detail</button>
-            <button className="btn btn-primary" onClick={(e) => setPage("maintenance")}>Service</button>
+            <button className="btn btn-primary">Detail</button>
+            <NavLink className="btn btn-primary" to="/history">History</NavLink>
+            <NavLink className="btn btn-primary" to="/maintenance">Service</NavLink>
           </div>
         </div>
       </div>
@@ -51,11 +53,11 @@ export default function Kendaraan({ setPage }) {
               <div className="stat-title">Nomor Rangka</div>
               <div className="stat-desc text-xl">1234567890abcd</div>
             </div>
-
           </div>
           <div className="card-actions justify-between">
-            <button className="btn btn-primary">View Detail</button>
-            <button className="btn btn-primary" onClick={(e) => setPage("maintenance")}>Service</button>
+            <button className="btn btn-primary">Detail</button>
+            <NavLink className="btn btn-primary" to="/history">History</NavLink>
+            <NavLink className="btn btn-primary" to="/maintenance">Service</NavLink>
           </div>
         </div>
       </div>

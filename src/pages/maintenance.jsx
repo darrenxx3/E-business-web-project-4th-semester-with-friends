@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Maintenance() {
+  const [details, setDetails] = useState("A")
   return (
     <form>
       <section className="bg-white border-b py-8">
@@ -19,12 +20,63 @@ export default function Maintenance() {
               </div>
 
               <div className="my-8">
-                <h4 htmlFor="" className='font-bold'>Pilih paket servis</h4>
+                <h4 htmlFor="" className='font-bold'>Pilih tipe servis</h4>
                 <select className="select max-w-xs mx-auto text-left ">
-                  <option>Paket Dibawah 10.000 KM</option>
-                  <option>Paket 10.000 - 100.000 KM</option>
-                  <option>Paket Diatas 100.000 KM</option>
+                  <option>1.000 KM</option>
+                  <option>5.000 KM</option>
+                  <option>1.0000 KM</option>
+                  <option>15.000 KM</option>
+                  <option>20.000 KM</option>
+                  <option>25.000 KM</option>
+                  <option>30.000 KM</option>
+                  <option>35.000 KM</option>
+                  <option>40.000 KM</option>
+                  <option>45.000 KM</option>
+                  <option>50.000 KM</option>
                 </select>
+              </div>
+
+              <div className="my-8">
+                <h4 htmlFor="" className='font-bold'>Pilih paket servis</h4>
+                <select className="select max-w-xs mx-auto text-left" onChange={(e) => {
+                  e.preventDefault()
+                  setDetails(e.target.value)
+                }}>
+                  <option value={"A"}>A</option>
+                  <option value={"B"}>B</option>
+                  <option value={"C"}>C</option>
+                </select>
+              </div>
+
+              <div className="my-8">
+                <div className="card max-w-xs bg-base-100 shadow-xl mx-auto">
+                  <div className="card-body">
+                    <h2 className="card-title">Paket {details}</h2>
+                    <ol className=''>
+                      {details == "A" ?
+                        <>
+                          <li>Cek Oli</li>
+                          <li>Cek Oli</li>
+                          <li>Cek Oli</li>
+                          <li>Cek Oli</li>
+                        </> :
+                        details == "B" ?
+                          <>
+                            <li>Cek roda</li>
+                            <li>Cek roda</li>
+                            <li>Cek roda</li>
+                            <li>Cek roda</li>
+                          </> :
+                          <>
+                            <li>Cek mesin</li>
+                            <li>Cek mesin</li>
+                            <li>Cek mesin</li>
+                            <li>Cek mesin</li>
+                          </>}
+
+                    </ol>
+                  </div>
+                </div>
               </div>
 
               <div className="my-8">
@@ -53,10 +105,29 @@ export default function Maintenance() {
               <div className="my-8">
                 <h4 htmlFor="" className='font-bold'>Jadwal Perbaikan</h4>
                 <div className="my-1">
-                  <input type="text" placeholder="HH:MM" className="input w-full max-w-xs" />
+                  <select className="select max-w-xs mx-auto text-left">
+                    <option>10:00 WIB</option>
+                    <option>11:00 WIB</option>
+                    <option>12:00 WIB</option>
+                    <option>13:00 WIB</option>
+                    <option>14:00 WIB</option>
+                    <option>15:00 WIB</option>
+                    <option>16:00 WIB</option>
+                    <option>17:00 WIB</option>
+                  </select>
+                  {/* <input type="text" placeholder="HH:MM" className="input w-full max-w-xs" /> */}
                 </div>
                 <div className="my-1">
-                  <input type="text" placeholder="DD/MM/YYYY" className="input w-full max-w-xs" />
+                  <select className="select max-w-xs mx-auto text-left">
+                    <option>20-05-2023</option>
+                    <option>21-05-2023</option>
+                    <option>23-05-2023</option>
+                    <option>24-05-2023</option>
+                    <option>25-05-2023</option>
+                    <option>26-05-2023</option>
+                    <option>27-05-2023</option>
+                    <option>28-05-2023</option>
+                  </select>
                 </div>
               </div>
               <button type="submit" className='btn btn-warning'>Pesan</button>

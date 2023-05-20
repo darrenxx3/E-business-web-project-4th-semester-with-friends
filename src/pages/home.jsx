@@ -2,7 +2,7 @@ import React from 'react'
 import teknisi from "../assets/undraw_automobile_repair_ywci.svg"
 import rumah from "../assets/undraw_at_home_re_1m0v.svg"
 
-export default function Home({ setPage }) {
+export default function Home() {
 
     return (
         <div className="">
@@ -142,7 +142,7 @@ export default function Home({ setPage }) {
                 < section className="bg-gray-100 py-8" >
                     <div className="container mx-auto px-2 pt-4 pb-12 text-gray-800">
                         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-                            Pricing
+                            Paket
                         </h2>
                         <div className="w-full mb-4">
                             <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
@@ -152,6 +152,7 @@ export default function Home({ setPage }) {
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket A
+                                        <h5 className='text-sm mt-5'>Include untuk kendaraan dibawah 10.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
                                         <div className="tooltip" data-tip="Pengecekan oli, radiator, minyak rem, dan kampas rem">
@@ -161,21 +162,12 @@ export default function Home({ setPage }) {
                                         <li className="border-b py-4">Perawatan tekanan ban</li>
                                     </ul>
                                 </div >
-                                <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                                    <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                                        Rp 350.000
-                                    </div>
-                                    <div className="flex items-center justify-center">
-                                        <button className="mx-auto lg:mx-0 hover:underline gradient text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onClick={(e) => setPage("maintenance")}>
-                                            Pesan
-                                        </button >
-                                    </div >
-                                </div >
                             </div >
                             <div className="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
                                 <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket B
+                                        <h5 className='text-sm mt-5'>Include untuk kendaraan 10.000 - 50.000 KM</h5>
                                     </div>
                                     <div className="h-1 w-full gradient my-0 py-0 rounded-t" />
                                     <ul className="w-full text-center text-base font-bold">
@@ -185,21 +177,12 @@ export default function Home({ setPage }) {
                                         <li className="border-b py-4">Ganti/tambah minyak rem</li>
                                     </ul >
                                 </div >
-                                <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                                    <div className="w-full pt-6 text-4xl font-bold text-center">
-                                    Mulai dari Rp 500.000
-                                    </div>
-                                    <div className="flex items-center justify-center">
-                                        <button className="mx-auto lg:mx-0 hover:underline gradient text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onClick={(e) => setPage("maintenance")}>
-                                            Pesan
-                                        </button >
-                                    </div >
-                                </div >
                             </div >
                             <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket C
+                                        <h5 className='text-sm mt-5'>Include untuk kendaraan diatas 50.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
                                         <li className="border-b py-4">Seluruh paket A dan B</li>
@@ -207,16 +190,7 @@ export default function Home({ setPage }) {
                                         <li className="border-b py-4">Perawatan AC kendaraan</li>
                                     </ul >
                                 </div >
-                                <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                                    <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                                        Rp 200.000
-                                    </div>
-                                    <div className="flex items-center justify-center">
-                                        <button className="mx-auto lg:mx-0 hover:underline gradient text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onClick={(e) => setPage("maintenance")}>
-                                            Pesan
-                                        </button >
-                                    </div >
-                                </div >
+                                
                             </div >
                         </div >
                     </div >
