@@ -15,7 +15,7 @@ export default function Header() {
                         <ol className='flex h-full justify-center md:mx-16 gap-2 md:gap-14 align-middle'>
                             <li className='my-auto'><NavLink to="/">Home</NavLink></li>
                             <li className='my-auto'><NavLink to="/kendaraan">Kendaraan</NavLink></li>
-                            <li className='my-auto'><NavLink to="/jadwal">jadwal</NavLink></li>
+                            <li className='my-auto'><NavLink to="/jadwal">Jadwal</NavLink></li>
                             <li className='my-auto bg-blue-300 rounded-full py-2 px-4'><NavLink to="/kendaraan">Profile</NavLink></li>
                         </ol>
                     </div>
