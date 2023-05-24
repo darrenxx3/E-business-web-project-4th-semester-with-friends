@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Maintenance() {
   const [details, setDetails] = useState("A")
@@ -24,7 +25,7 @@ export default function Maintenance() {
                 <select className="select max-w-xs mx-auto text-left ">
                   <option>1.000 KM</option>
                   <option>5.000 KM</option>
-                  <option>1.0000 KM</option>
+                  <option>10.000 KM</option>
                   <option>15.000 KM</option>
                   <option>20.000 KM</option>
                   <option>25.000 KM</option>
@@ -130,7 +131,27 @@ export default function Maintenance() {
                   </select>
                 </div>
               </div>
-              <button type="submit" className='btn btn-warning'>Pesan</button>
+
+              {/* Pembayaran*/}
+              {/* <div className="my-8">
+                <h4 htmlFor="" className='font-bold'>Pembayaran</h4>
+                <div className="mx-auto max-w-xs">
+                  <div className="form-control">
+                    <label className="label cursor-pointer">
+                      <span className="label-text">BCA</span>
+                      <input type="radio" name="radio-10" className="radio checked:bg-orange-500" defaultChecked={true} />
+                    </label>
+                  </div>
+                  <div className="form-control">
+                    <label className="label cursor-pointer">
+                      <span className="label-text">Transfer</span>
+                      <input type="radio" name="radio-10" className="radio checked:bg-orange-500" />
+                    </label>
+                  </div>
+                </div>
+              </div> */}
+
+              <button className='btn btn-warning'><Link to="/jadwal"> Pesan</Link></button>
             </div>
           </div>
         </div >

@@ -8,6 +8,7 @@ import Kendaraan from './pages/kendaraan'
 import Maintenance from './pages/maintenance'
 import History from './pages/history'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Pembayaran from './pages/pembayaran'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/jadwal" element={<Jadwal />} />
             <Route exact path="/history" element={<History />} />
             <Route exact path="/maintenance" element={<Maintenance />} />
+            <Route exact path="/pembayaran" element={<Pembayaran />} />
           </Routes>
 
         </div>

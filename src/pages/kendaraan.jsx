@@ -27,8 +27,7 @@ export default function Kendaraan() {
             </div>
           </div>
           <div className="card-actions justify-between">
-            <button className="btn btn-primary">Detail</button>
-            <NavLink className="btn btn-primary" to="/history">History</NavLink>
+            <NavLink className="btn btn-primary" to="/history">Activity</NavLink>
             <NavLink className="btn btn-primary" to="/maintenance">Service</NavLink>
           </div>
         </div>
@@ -55,8 +54,7 @@ export default function Kendaraan() {
             </div>
           </div>
           <div className="card-actions justify-between">
-            <button className="btn btn-primary">Detail</button>
-            <NavLink className="btn btn-primary" to="/history">History</NavLink>
+            <NavLink className="btn btn-primary" to="/history">Activity</NavLink>
             <NavLink className="btn btn-primary" to="/maintenance">Service</NavLink>
           </div>
         </div>
