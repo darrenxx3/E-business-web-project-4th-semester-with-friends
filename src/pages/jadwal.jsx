@@ -33,7 +33,7 @@ export default function Jadwal() {
               <div className="pl-1 text-sm">Sun</div>
             </div>
             <div className="grid flex-grow w-full h-auto grid-cols-7 grid-rows-5 gap-px pt-px mt-1 bg-gray-200">
-              <div></div>
+              <div></div> 
               <div className="relative flex flex-col bg-white group">
                 <span className="mx-2 my-1 text-xs font-bold">1 </span>
                 <div className="flex flex-col px-1 py-1 overflow-auto">
