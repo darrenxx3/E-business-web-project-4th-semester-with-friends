@@ -48,7 +48,7 @@ export default function Jadwal() {
                   <button className="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
                     <span className="flex-shrink-0 w-2 h-2 bg-gray-500  rounded-full"></span>
                     <span className="ml-2 font-light leading-none">12:30</span>
-                    <span className="ml-2 font-medium leading-none truncate">Service mobillio</span>
+                    <span className="ml-2 font-medium leading-none truncate">Service Mobilio</span>
                   </button>
                 </div>
               </div>

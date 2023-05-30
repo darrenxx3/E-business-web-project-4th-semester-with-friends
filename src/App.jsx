@@ -9,6 +9,7 @@ import Maintenance from './pages/maintenance'
 import History from './pages/history'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Pembayaran from './pages/pembayaran'
+import Tambah from './pages/tambah'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/history" element={<History />} />
             <Route exact path="/maintenance" element={<Maintenance />} />
             <Route exact path="/pembayaran" element={<Pembayaran />} />
+            <Route exact path="/tambah" element={<Tambah />} />
           </Routes>
 
         </div>
