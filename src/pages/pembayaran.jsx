@@ -17,7 +17,7 @@ export default function Pembayaran() {
 
       <ul className="menu mx-auto max-w-4xl rounded-lg">
         <br />
-        <h1 className='text-lg font-bold'>No. Invoice: INV001/2023</h1>
+        <h1 className='text-lg font-bold'>No. Invoice: INV005/2023</h1>
         <h1 className='text-lg'>Tanggal: 2 Juni 2023</h1>
         <br />
         <h1 className='text-lg'>Bill to: Rahmad</h1>

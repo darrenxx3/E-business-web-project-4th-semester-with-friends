@@ -23,7 +23,7 @@ export default function History() {
           <h3 className="text-lg font-bold text-center">22 Mei 2023 15:00 WIB</h3>
           <div className="stat">
             <div className="stat-title ">Nomor Invoice</div>
-            <div className="stat-value text-xl font-bold">A1231029310B</div>
+            <div className="stat-value text-xl font-bold">INV005/2023</div>
             <div className="stat-title mt-5">Nama Kendaraan</div>
             <div className="stat-value text-xl font-bold">Honda Mobilio</div>
             <div className="stat-title mt-5">Nomor Polisi</div>
@@ -68,7 +68,7 @@ export default function History() {
           <h3 className="text-lg font-bold text-center">3 Mei 2023 14:00 WIB</h3>
           <div className="stat">
             <div className="stat-title ">Nomor Invoice</div>
-            <div className="stat-value text-xl font-bold">A1231029310B</div>
+            <div className="stat-value text-xl font-bold">INV005/2023</div>
             <div className="stat-title mt-5">Nama Kendaraan</div>
             <div className="stat-value text-xl font-bold">Honda Mobilio</div>
             <div className="stat-title mt-5">Nomor Polisi</div>
@@ -106,7 +106,7 @@ export default function History() {
           <h3 className="text-lg font-bold text-center">3 Mei 2023 14:00 WIB</h3>
           <div className="stat">
             <div className="stat-title ">Nomor Invoice</div>
-            <div className="stat-value text-xl font-bold">A1231029310B</div>
+            <div className="stat-value text-xl font-bold">INV002/2022</div>
             <div className="stat-title mt-5">Nama Kendaraan</div>
             <div className="stat-value text-xl font-bold">Honda Mobilio</div>
             <div className="stat-title mt-5">Nomor Polisi</div>

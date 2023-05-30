@@ -5,7 +5,7 @@ import rumah from "../assets/undraw_at_home_re_1m0v.svg"
 export default function Home() {
 
     return (
-        <div className="">
+        <div className="bg-orange-200">
             <div className="leading-normal tracking-normal text-white gradient">
                 <section className="bg-white border-b py-8">
                     <div className="container max-w-5xl mx-auto m-8">
