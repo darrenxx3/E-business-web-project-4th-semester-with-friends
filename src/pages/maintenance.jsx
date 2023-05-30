@@ -56,23 +56,22 @@ export default function Maintenance() {
                     <ol className=''>
                       {details == "A" ?
                         <>
-                          <li>Cek Oli</li>
-                          <li>Cek Oli</li>
-                          <li>Cek Oli</li>
-                          <li>Cek Oli</li>
+                          <li className="">Free oli mesin</li>
+                          <li className="">Free filter udara</li>
+                          <li className="">Free pengecekan suspensi</li>
                         </> :
                         details == "B" ?
                           <>
-                            <li>Cek roda</li>
-                            <li>Cek roda</li>
-                            <li>Cek roda</li>
-                            <li>Cek roda</li>
+                            <li className="">Free pengecekan AC mobil</li>
+                            <li className="">Free aki mobil</li>
+                            <li className="">Free oli gardan</li>
+                            <li className="">Free kampas kopling</li>
                           </> :
                           <>
-                            <li>Cek mesin</li>
-                            <li>Cek mesin</li>
-                            <li>Cek mesin</li>
-                            <li>Cek mesin</li>
+                            <li className="">Free ganti dan isi kampas rem</li>
+                            <li className="">Free oli transmisi </li>
+                            <li className="">Free spooring dan balancing</li>
+                            <li className="">Free coolant radiator</li>
                           </>}
 
                     </ol>

@@ -19,7 +19,7 @@ export default function Pembayaran() {
             <div className="stat-title mt-5">Nama Kendaraan</div>
             <div className="stat-value text-xl font-bold">Honda Mobillio</div>
             <div className="stat-title mt-5">Nomor Polisi</div>
-            <div className="stat-value text-xl font-bold">B 12345 ABI</div>
+            <div className="stat-value text-xl font-bold">B 9612 UVS</div>
             <div className="stat-title ">Lokasi Servis</div>
             <div className="stat-value text-xl font-bold">Rumah</div>
 
