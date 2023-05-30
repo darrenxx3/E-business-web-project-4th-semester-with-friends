@@ -147,7 +147,7 @@ export default function Home() {
                         <div className="w-full mb-4">
                             <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
                         </div >
-                        <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
+                        <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4 gap-4">
                             <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
@@ -155,27 +155,28 @@ export default function Home() {
                                         <h5 className='text-sm mt-5'>Include untuk kendaraan dibawah 10.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
-                                        <div className="tooltip" data-tip="Pengecekan oli, radiator, minyak rem, dan kampas rem">
-                                            <li className="border-b py-4">Perawatan dasar komponen kendaraan</li>
-                                        </div>
-                                        <li className="border-b py-4">Perawatan baut-baut kendaraan</li>
-                                        <li className="border-b py-4">Perawatan tekanan ban</li>
+                                        {/* <div className="tooltip" data-tip="Pengecekan oli, radiator, minyak rem, dan kampas rem"> */}
+                                        <li className="border-b py-4">Free oli mesin</li>
+                                        {/* </div> */}
+                                        <li className="border-b py-4">Free filter udara</li>
+                                        <li className="border-b py-4">Free pengecekan suspensi</li>
                                     </ul>
                                 </div >
                             </div >
-                            <div className="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
-                                <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+                            <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
+                                <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket B
-                                        <h5 className='text-sm mt-5'>Include untuk kendaraan 10.000 - 50.000 KM</h5>
+                                        <h5 className='text-sm mt-5'>Include untuk kendaraan dibawah 10.000 KM</h5>
                                     </div>
-                                    <div className="h-1 w-full gradient my-0 py-0 rounded-t" />
-                                    <ul className="w-full text-center text-base font-bold">
-                                        <li className="border-b py-4">Seluruh paket A</li>
-                                        <li className="border-b py-4">Ganti aki</li>
-                                        <li className="border-b py-4">Ganti oli</li>
-                                        <li className="border-b py-4">Ganti/tambah minyak rem</li>
-                                    </ul >
+                                    <ul className="w-full text-center text-sm">
+                                        {/* <div className="tooltip" data-tip="Pengecekan oli, radiator, minyak rem, dan kampas rem"> */}
+                                        <li className="border-b py-4">Free pengecekan AC mobil</li>
+                                        {/* </div> */}
+                                        <li className="border-b py-4">Free aki mobil</li>
+                                        <li className="border-b py-4">Free oli gardan</li>
+                                        <li className="border-b py-4">Free kampas kopling</li>
+                                    </ul>
                                 </div >
                             </div >
                             <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
@@ -185,12 +186,13 @@ export default function Home() {
                                         <h5 className='text-sm mt-5'>Include untuk kendaraan diatas 50.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
-                                        <li className="border-b py-4">Seluruh paket A dan B</li>
-                                        <li className="border-b py-4">Perawatan kelistrikan kendaraan</li>
-                                        <li className="border-b py-4">Perawatan AC kendaraan</li>
+                                        <li className="border-b py-4">Free ganti dan isi kampas rem</li>
+                                        <li className="border-b py-4">Free oli transmisi </li>
+                                        <li className="border-b py-4">Free spooring dan balancing</li>
+                                        <li className="border-b py-4">Free coolant radiator</li>
                                     </ul >
                                 </div >
-                                
+
                             </div >
                         </div >
                     </div >
