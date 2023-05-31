@@ -44,6 +44,11 @@ export default function Tambah() {
                 <input type="text" className="my-2 input input-bordered max-w-xs mx-auto text-left" placeholder="2013" />
               </div>
 
+              <div className="my-8">
+                <h4 htmlFor="" className='font-bold'>Kilometer</h4>
+                <input type="text" className="my-2 input input-bordered max-w-xs mx-auto text-left" placeholder="1234" />
+              </div>
+
               <Link className='btn btn-warning' to="/kendaraan">Tambah</Link>
             </div>
           </div>

@@ -18,10 +18,10 @@ export default function Home() {
                         <div className="flex flex-wrap">
                             <div className="w-5/6 sm:w-1/2 p-6">
                                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                                    Teknisi terpercaya untuk kendaraan kesayangan anda
+                                    Teknisi terpercaya untuk kendaraan kesayangan Anda
                                 </h3>
                                 <p className="text-gray-600 mb-8">
-                                    Teknisi kami sangat bisa dipercaya
+                                    Kami siap melayani Anda
                                     <br />
                                     <br />
 
@@ -152,6 +152,7 @@ export default function Home() {
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket A
+                                        <h5 className='text-sm'>1.000 KM - 30.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
                                         {/* <div className="tooltip" data-tip="Pengecekan oli, radiator, minyak rem, dan kampas rem"> */}
@@ -166,6 +167,7 @@ export default function Home() {
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket B
+                                        <h5 className='text-sm'>1.000 KM - 30.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
                                         {/* <div className="tooltip" data-tip="Pengecekan oli, radiator, minyak rem, dan kampas rem"> */}
@@ -181,6 +183,7 @@ export default function Home() {
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket C
+                                        <h5 className='text-sm'>1.000 KM - 30.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
                                         <li className="border-b py-4">Free ganti dan isi kampas rem</li>
@@ -208,6 +211,7 @@ export default function Home() {
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket A
+                                        <h5 className='text-sm'>1.000 KM - 30.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
                                         {/* <div className="tooltip" data-tip="Pengecekan oli, radiator, minyak rem, dan kampas rem"> */}
@@ -222,6 +226,7 @@ export default function Home() {
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket B
+                                        <h5 className='text-sm'>1.000 KM - 30.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
                                         {/* <div className="tooltip" data-tip="Pengecekan oli, radiator, minyak rem, dan kampas rem"> */}
@@ -237,6 +242,7 @@ export default function Home() {
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
                                     <div className="p-8 text-3xl font-bold text-center border-b-4">
                                         Paket C
+                                        <h5 className='text-sm'>1.000 KM - 30.000 KM</h5>
                                     </div>
                                     <ul className="w-full text-center text-sm">
                                         <li className="border-b py-4">Free oli gardan CVT</li>

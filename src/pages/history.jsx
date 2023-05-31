@@ -6,7 +6,7 @@ export default function History() {
     <div className='w-full'>
       <ul className="menu mx-auto max-w-2xl rounded-lg">
         <li>
-          <label htmlFor="my-modal-pending" className='btn btn-info my-2'>Upcoming | 2 Juni 2023
+          <label htmlFor="my-modal-pending" className='btn btn-info my-2'>On Progress | 2 Juni 2023
             <Link className='absolute right-10 bg-amber-300 hover:bg-amber-100 p-2 rounded-lg' to="/pembayaran">
               Rincian Biaya
             </Link>
@@ -82,7 +82,7 @@ export default function History() {
             <div className="stat-value text-xl font-bold">
               <li>Cek oli</li>
               <li>Cek mesin</li>
-              <li>Cek moda</li>
+              <li>Cek roda</li>
             </div>
             <div className="stat-title mt-5">Tambahan</div>
             <div className="stat-value text-xl font-bold">-</div>
@@ -120,15 +120,15 @@ export default function History() {
             <div className="stat-value text-xl font-bold">
               <li>Cek oli</li>
               <li>Cek mesin</li>
-              <li>Cek moda</li>
+              <li>Cek roda</li>
             </div>
-            <div className="stat-title mt-5">Tambahan</div>
+            <div className="stat-title mt-5">Saran Mekanik</div>
             <div className="stat-value text-xl font-bold">Ganti Aki</div>
             <div className="stat-title mt-5">Tipe servis</div>
             <div className="stat-value text-xl font-bold">1.000 KM</div>
             <div className="stat-title mt-5">Paket</div>
             <div className="stat-value text-xl font-bold">A</div>
-            <div className="stat-title mt-5">Total Biaya</div>
+            <div className="stat-title mt-5">Estimasi Total Biaya</div>
             <div className="stat-value text-xl font-bold">Rp 900.000</div>
             <div className="stat-title mt-5">Metode Pembayaran</div>
             <div className="stat-value text-xl font-bold">-</div>

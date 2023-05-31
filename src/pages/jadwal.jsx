@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Jadwal() {
   return (
@@ -33,7 +34,7 @@ export default function Jadwal() {
               <div className="pl-1 text-sm">Sun</div>
             </div>
             <div className="grid flex-grow w-full h-auto grid-cols-7 grid-rows-5 gap-px pt-px mt-1 bg-gray-200">
-              <div></div> 
+              <div></div>
               <div className="relative flex flex-col bg-white group">
                 <span className="mx-2 my-1 text-xs font-bold">1 </span>
                 <div className="flex flex-col px-1 py-1 overflow-auto">
@@ -44,12 +45,14 @@ export default function Jadwal() {
               <div className="relative flex flex-col bg-white group">
                 <span className="mx-2 my-1 text-xs font-bold">2</span>
                 <div className="flex flex-col px-1 py-1 overflow-auto">
-                  
-                  <button className="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                    <span className="flex-shrink-0 w-2 h-2 bg-gray-500  rounded-full"></span>
-                    <span className="ml-2 font-light leading-none">12:30</span>
-                    <span className="ml-2 font-medium leading-none truncate">Service Mobilio</span>
-                  </button>
+
+                  <Link to={"/history"}>
+                    <button className="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
+                      <span className="flex-shrink-0 w-2 h-2 bg-gray-500  rounded-full"></span>
+                      <span className="ml-2 font-light leading-none">12:30</span>
+                      <span className="ml-2 font-medium leading-none truncate">Service Mobilio</span>
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -63,7 +66,13 @@ export default function Jadwal() {
               <div className="relative flex flex-col bg-white group">
                 <span className="mx-2 my-1 text-xs font-bold">4</span>
                 <div className="flex flex-col px-1 py-1 overflow-auto">
-
+                  <Link to={"/history"}>
+                    <button className="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
+                      <span className="flex-shrink-0 w-2 h-2 bg-gray-500  rounded-full"></span>
+                      <span className="ml-2 font-light leading-none">13:00</span>
+                      <span className="ml-2 font-medium leading-none truncate">Service Honda Beat</span>
+                    </button>
+                  </Link>
                 </div>
               </div>
 

@@ -28,8 +28,8 @@ export default function Kendaraan() {
               </div>
 
               <div className="stat">
-                <div className="stat-title">Terakhir kali servis</div>
-                <div className="stat-desc text-xl">12312 KM</div>
+                <div className="stat-title">Servis Terakhir</div>
+                <div className="stat-desc text-xl">12.312 KM</div>
               </div>
             </div>
             <div className="card-actions justify-between">
@@ -55,8 +55,8 @@ export default function Kendaraan() {
               </div>
 
               <div className="stat">
-                <div className="stat-title">Nomor Rangka</div>
-                <div className="stat-desc text-xl">PK92782022</div>
+                <div className="stat-title">Servis Terakhir</div>
+                <div className="stat-desc text-xl">2.032 KM</div>
               </div>
             </div>
             <div className="card-actions justify-between">
