@@ -1,6 +1,7 @@
 import React from 'react'
 import teknisi from "../assets/undraw_automobile_repair_ywci.svg"
 import rumah from "../assets/undraw_at_home_re_1m0v.svg"
+import { Link } from 'react-router-dom'
 
 export default function Home() {
 
@@ -162,6 +163,13 @@ export default function Home() {
                                         <li className="border-b py-4">Free pengecekan suspensi</li>
                                     </ul>
                                 </div >
+                                <div className="  flex text-center w-full justify-center ">
+                                    <Link to="/maintenance" className=''>
+                                        <div className="hover:bg-orange-400 bg-orange-300 py-3 font-bold px-10 my-4 rounded-full ">
+                                            Pesan Sekarang
+                                        </div>
+                                    </Link>
+                                </div>
                             </div >
                             <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
@@ -178,6 +186,13 @@ export default function Home() {
                                         <li className="border-b py-4">Free kampas kopling</li>
                                     </ul>
                                 </div >
+                                <div className="  flex text-center w-full justify-center ">
+                                    <Link to="/maintenance" className=''>
+                                        <div className="hover:bg-orange-400 bg-orange-300 py-3 font-bold px-10 my-4 rounded-full ">
+                                            Pesan Sekarang
+                                        </div>
+                                    </Link>
+                                </div>
                             </div >
                             <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
@@ -192,13 +207,19 @@ export default function Home() {
                                         <li className="border-b py-4">Free coolant radiator</li>
                                     </ul >
                                 </div >
-
+                                <div className="  flex text-center w-full justify-center ">
+                                    <Link to="/maintenance" className=''>
+                                        <div className="hover:bg-orange-400 bg-orange-300 py-3 font-bold px-10 my-4 rounded-full ">
+                                            Pesan Sekarang
+                                        </div>
+                                    </Link>
+                                </div>
                             </div >
                         </div >
                     </div >
                 </section >
 
-                < section className="bg-gray-100 py-8" >
+                <section className="bg-gray-100 py-8" >
                     <div className="container mx-auto px-2 pt-4 pb-12 text-gray-800">
                         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
                             Paket Motor
@@ -221,6 +242,13 @@ export default function Home() {
                                         <li className="border-b py-4">Free tambah minyak rem</li>
                                     </ul>
                                 </div >
+                                <div className="  flex text-center w-full justify-center ">
+                                    <Link to="/maintenance" className=''>
+                                        <div className="hover:bg-orange-400 bg-orange-300 py-3 font-bold px-10 my-4 rounded-full ">
+                                            Pesan Sekarang
+                                        </div>
+                                    </Link>
+                                </div>
                             </div >
                             <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
@@ -237,6 +265,13 @@ export default function Home() {
                                         <li className="border-b py-4">Free ganti busi motor</li>
                                     </ul>
                                 </div >
+                                <div className="  flex text-center w-full justify-center ">
+                                    <Link to="/maintenance" className=''>
+                                        <div className="hover:bg-orange-400 bg-orange-300 py-3 font-bold px-10 my-4 rounded-full ">
+                                            Pesan Sekarang
+                                        </div>
+                                    </Link>
+                                </div>
                             </div >
                             <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
                                 <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
@@ -248,7 +283,13 @@ export default function Home() {
                                         <li className="border-b py-4">Free oli gardan CVT</li>
                                     </ul >
                                 </div >
-
+                                <Link to="/maintenance" className=''>
+                                    <div className="  flex text-center w-full justify-center ">
+                                        <div className="hover:bg-orange-400 bg-orange-300 py-3 font-bold px-10 my-4 rounded-full ">
+                                            Pesan Sekarang
+                                        </div>
+                                    </div>
+                                </Link>
                             </div >
                         </div >
                     </div >
