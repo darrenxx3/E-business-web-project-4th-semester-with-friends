@@ -47,7 +47,7 @@ export default function Jadwal() {
                 <div className="flex flex-col px-1 py-1 overflow-auto">
 
                   <Link to={"/history"}>
-                    <button className="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
+                    <button className="flex items-center flex-shrink-0 h-5 px-1 text-sm hover:bg-gray-200">
                       <span className="flex-shrink-0 w-2 h-2 bg-gray-500  rounded-full"></span>
                       <span className="ml-2 font-light leading-none">12:30</span>
                       <span className="ml-2 font-medium leading-none truncate">Service Mobilio</span>
@@ -67,7 +67,7 @@ export default function Jadwal() {
                 <span className="mx-2 my-1 text-xs font-bold">4</span>
                 <div className="flex flex-col px-1 py-1 overflow-auto">
                   <Link to={"/history"}>
-                    <button className="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
+                    <button className="flex items-center flex-shrink-0 h-5 px-1 text-sm hover:bg-gray-200">
                       <span className="flex-shrink-0 w-2 h-2 bg-gray-500  rounded-full"></span>
                       <span className="ml-2 font-light leading-none">13:00</span>
                       <span className="ml-2 font-medium leading-none truncate">Service Honda Beat</span>

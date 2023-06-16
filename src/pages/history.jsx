@@ -4,18 +4,32 @@ import { Link } from 'react-router-dom'
 export default function History() {
   return (
     <div className='w-full'>
-      <ul className="menu mx-auto max-w-2xl rounded-lg">
-        <li>
-          <label htmlFor="my-modal-pending" className='btn btn-info my-2'>On Progress | 2 Juni 2023
-            <Link className='absolute right-10 bg-amber-300 hover:bg-amber-100 p-2 rounded-lg' to="/pembayaran">
-              Rincian Biaya
-            </Link>
-          </label>
-        </li>
-        <li><label htmlFor="my-modal-cancel" className='my-2 btn btn-error'>Batal | 22 Mei 2022</label></li>
-        <li><label htmlFor="my-modal-history" className='my-2 btn btn-success'>Selesai | 11 Januari 2021</label></li>
-        <li><label htmlFor="my-modal-history" className='my-2 btn btn-success'>Selesai | 10 Januari 2020</label></li>
-      </ul>
+      <div className="menu mx-auto max-w-2xl rounded-lg">
+
+
+        <label htmlFor="my-modal-pending" className='btn btn-info my-2 relative w-full'>
+          <Link className='flex sm:absolute right-10 bg-amber-300 hover:bg-amber-100 p-2 rounded-lg' to="/pembayaran">
+            Rincian Biaya
+          </Link>
+          On Progress | 2 Juni 2023
+          <Link className='sm:absolute left-10 bg-amber-300 hover:bg-amber-100 p-2 rounded-lg' to="/change">
+            Ubah Jadwal
+          </Link>
+        </label>
+
+
+        <label htmlFor="my-modal-cancel" className='my-2 btn btn-error'>Batal | 22 Mei 2022</label>
+        <label htmlFor="my-modal-history" className='my-2 btn btn-success relative'>Selesai | 11 Januari 2021
+          <Link className='absolute right-10 bg-amber-300 hover:bg-amber-100 p-2 rounded-lg' to="/pembayaran">
+            Rincian Biaya
+          </Link>
+        </label>
+        <label htmlFor="my-modal-history" className='my-2 btn btn-success relative'>Selesai | 10 Januari 2020
+          <Link className='absolute right-10 bg-amber-300 hover:bg-amber-100 p-2 rounded-lg' to="/pembayaran">
+            Rincian Biaya
+          </Link>
+        </label>
+      </div>
 
       <input type="checkbox" id="my-modal-cancel" className="modal-toggle" />
       <label htmlFor="my-modal-cancel" className="modal cursor-pointer">

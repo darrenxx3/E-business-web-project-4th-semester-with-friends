@@ -1,16 +1,20 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Maintenance() {
+export default function Ubah() {
   const [details, setDetails] = useState("A")
   const [type, setType] = useState(1)
   const [km, setKM] = useState(0)
+  console.log(km)
   return (
     <form>
       <section className="bg-white border-b py-8">
         <div className="container max-w-5xl mx-auto m-8">
           <h2 className="w-full text-3xl my-2 font-bold leading-tight text-center text-gray-800">
             Autogear
+          </h2>
+          <h2 className="w-full text-3xl my-2 font-bold leading-tight text-center text-gray-800">
+            Mengubah Informasi Servis
           </h2>
           <div className="w-full mt-10">
             <div className="mx-auto text-center">
@@ -178,7 +182,7 @@ export default function Maintenance() {
                 </div>
               </div> */}
 
-              <Link to="/jadwal"><button className='btn btn-warning'>Pesan</button></Link>
+              <Link to="/jadwal"><button className='btn btn-warning'>Ubah</button></Link>
             </div>
           </div>
         </div >
